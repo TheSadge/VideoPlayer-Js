@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Custom Video Player</title>
+  <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+  <h1>Custom Video Player Controls Using <span class="lang">Java Script</span> By <span class="coder"> TheSadge </span>
+  </h1>
+  <div class="myplayer">
+
+    <div class="alert">
+      Video Is Muted <i class="bi bi-volume-mute-fill"></i>
+    </div>
+    <div class="playIcon"><i class="bi bi-play-circle-fill"></i></div>
+    <!-- <div class="hoverMe">
+      Hover
+    </div> -->
+
+    <video src="https://archive.org/download/ElephantsDream/ed_1024_512kb.mp4"></video>
+
+    <div class="myplayer__controls">
+      <div class="controls__progressbar">
+        <input class="controls__progressbar-current" type="range" min="1" max="100" step="1" value="0">
+      </div>
+
+      <div class="controls__btns">
+        <div class="left">
+          <div class="btns play">
+            <i class="bi bi-play-fill"></i>
+          </div>
+          <div class="btns rewind">
+            <i class="icon ion-md-rewind"></i>
+          </div>
+          <div class="btns forward">
+            <i class="icon ion-md-fastforward"></i>
+          </div>
+          <div class="timer">
+            <span class="currentTime">00:00</span>
+            <span>/</span>
+            <span class="videoTime">00:00</span>
+          </div>
+        </div>
+        <div class="right">
+          <div class="btns volume">
+            <i class="icon ion-md-volume-high"></i>
+            <div class="volume__progress">
+              <input id="volume_bar" type="range" min="1" max="100" step="1" value="50">
+            </div>
+          </div>
+          <div class="btns fullscreen">
+            <i class="icon ion-md-expand"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <script src="Script/main.js"></script>
+
+</body>
+
+</html>
