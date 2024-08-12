@@ -82,8 +82,7 @@ cd custom-video-player
 
 <h2>License</h2>
 
-<p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
-
+<p>This project is licensed under the {Again , nothing ... feel free to change the source code and reupload it} 
 <h2>Acknowledgements</h2>
 
 <p>This video player was inspired by the need for a customizable, user-friendly media player that integrates smoothly with modern web applications.</p>
