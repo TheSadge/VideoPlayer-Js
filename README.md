@@ -28,7 +28,7 @@
 <ul>
     <li><strong>Volume Adjustment</strong>: The player includes a volume control that allows users to adjust the volume level via a horizontal slider.</li>
     <li><strong>Volume Mute/Unmute</strong>: Clicking on the volume icon toggles the visibility of the volume slider.</li>
-    <li><strong>Volume Alert</strong>: A customizable alert message is displayed when the volume is set to the maximum level.</li>
+    <li><strong>Volume Alert</strong>: A customizable alert message is displayed when the volume is set to the lowest level.</li>
 </ul>
 
 <h3>5. Fullscreen Mode</h3>
