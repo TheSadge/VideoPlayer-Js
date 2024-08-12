@@ -1,4 +1,4 @@
-<h1>Some of the futures might be uncompatible with Firefox at the moment</h1>
+<h1>Some of the futures might be incompatible with Firefox at the moment</h1>
 
 <h1>Custom Video Player</h1>
 
