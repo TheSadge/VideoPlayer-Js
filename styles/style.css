@@ -277,3 +277,7 @@ i:hover {
   left: 615px;
   bottom: 600px;
 }
+
+.myplayer:fullscreen video {
+  width: 100% !important;
+}
